@@ -1,0 +1,16 @@
+// *************** SECTION ABOUT ***************
+
+.about {
+    overflow: hidden;
+    @include sections;
+    padding: 100px;
+    background-color: #ffe8d6;
+
+    img {
+        width: 15rem;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}

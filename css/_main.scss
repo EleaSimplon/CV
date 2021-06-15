@@ -1,0 +1,37 @@
+// *************** IMPORTS ***************
+
+@import 'mixin';
+@import 'navbar';
+@import 'home';
+@import 'about';
+@import 'portfolio';
+@import 'contact';
+@import 'end';
+
+
+// *************** GENERAL ***************
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+// *************** BTN BACK TO TOP ***************
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: black;
+    border-color: transparent;
+}
+
+#btn-back-to-top:hover {
+    background-color: #4fd9f9;
+}
