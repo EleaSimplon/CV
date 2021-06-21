@@ -140,109 +140,107 @@ if (($err_formulaire) || (!isset($_POST['envoi'])))
 {
 	?>
 
-	<section data-index="5" id="contact" class="contact">
-        <section class="ftco-section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 text-center">
-                        <h2 class="heading-section">Contact me</h2>
-                    </div>
+	<section data-index="5" id="contact" class="contact ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h1 class="heading-section">Contact me</h1>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-12">
-                        <div class="wrapper">
-                            <div class="row no-gutters">
-                                <div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
-                                    <div class="contact-wrap w-100 p-md-5 p-4">
-                                        <h3 class="mb-4">Get in touch</h3>
-                                        <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="label" for="name">Nom</label>
-                                                        <input type="text" class="form-control" name="nom" id="nom" placeholder="Votre Nom">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6"> 
-                                                    <div class="form-group">
-                                                        <label class="label" for="name">Prénom</label>
-                                                        <input type="text" class="form-control" name="prenom" id="prenom" placeholder="Votre Prénom">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <label class="label" for="subject">Email</label>
-                                                        <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <label class="label" for="subject">Sujet</label>
-                                                        <input type="text" class="form-control" name="sujet" id="suject" placeholder="Sujet du mail">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <label class="label" for="#">Message</label>
-                                                        <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Ecrivez votre message ici..."></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <button class="button-contact">
-                                                            <span class="default">Send</span>
-                                                            <span class="success">Sent</span>
-                                                            <div class="left"></div>
-                                                            <div class="right"></div>
-                                                        </button>
-                                                    </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="wrapper">
+                        <div class="row no-gutters">
+                            <div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+                                <div class="contact-wrap w-100 p-md-5 p-4">
+                                    <h3 class="mb-4">Get in touch</h3>
+                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="label" for="name">Nom</label>
+                                                    <input type="text" class="form-control" name="nom" id="nom" placeholder="Votre Nom">
                                                 </div>
                                             </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-5 d-flex align-items-stretch bg-contact">
-                                    <div class="info-wrap w-100 p-md-5 p-4">
-                                        <h3>Quelques informations...</h3>
-                                        <div class="dbox w-100 d-flex align-items-start">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="fa fa-map-marker"></span>
+                                            <div class="col-md-6"> 
+                                                <div class="form-group">
+                                                    <label class="label" for="name">Prénom</label>
+                                                    <input type="text" class="form-control" name="prenom" id="prenom" placeholder="Votre Prénom">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="subject">Email</label>
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="subject">Sujet</label>
+                                                    <input type="text" class="form-control" name="sujet" id="suject" placeholder="Sujet du mail">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="#">Message</label>
+                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Ecrivez votre message ici..."></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <button class="button-contact">
+                                                        <span class="default">Send</span>
+                                                        <span class="success">Sent</span>
+                                                        <div class="left"></div>
+                                                        <div class="right"></div>
+                                                    </button>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="text pl-3">
-                                        <p><span>Location:</span> 69001, Lyon</p>
-                                    </div>
-                                </div>
-                                <div class="dbox w-100 d-flex align-items-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-phone"></span>
-                                    </div>
-                                    <div class="text pl-3">
-                                    <p><span>Numéro: </span> 07 49 52 90 54</p>
+                                    </form>
                                 </div>
                             </div>
-                                <div class="dbox w-100 d-flex align-items-center">
+                            <div class="col-lg-4 col-md-5 d-flex align-items-stretch bg-contact">
+                                <div class="info-wrap w-100 p-md-5 p-4">
+                                    <h3>Quelques informations...</h3>
+                                    <div class="dbox w-100 d-flex align-items-start">
                                     <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-paper-plane"></span>
+                                        <span class="fa fa-map-marker"></span>
                                     </div>
                                     <div class="text pl-3">
-                                    <p><span>Email:</span> elea.toos@gmail.com</p>
+                                    <p><span> 69001, Lyon </span></p>
                                 </div>
-                                <!-- <div class="dbox w-100 d-flex align-items-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <i class='bx bxl-discord' style='color:#ffffff'  ></i>
-                                    </div>
-                                    <div class="text pl-3">
-                                    <p><span>Discord:</span> eleaSimplon/p>
-                                </div> -->
+                            </div>
+                            <div class="dbox w-100 d-flex align-items-center">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="fa fa-phone"></span>
+                                </div>
+                                <div class="text pl-3">
+                                <p><span> 07 49 52 90 54 </span></p>
                             </div>
                         </div>
+                            <div class="dbox w-100 d-flex align-items-center">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="fa fa-paper-plane"></span>
                                 </div>
+                                <div class="text pl-3">
+                                <p><span> elea.toos@gmail.com </span></p>
+                            </div>
+                            <!-- <div class="dbox w-100 d-flex align-items-center">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <i class='bx bxl-discord' style='color:#ffffff'  ></i>
+                                </div>
+                                <div class="text pl-3">
+                                <p><span>Discord:</span> eleaSimplon/p>
+                            </div> -->
+                        </div>
+                    </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </section>
     
 <?php

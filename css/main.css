@@ -561,7 +561,7 @@ Main components
   left: 25px;
   height: 100%;
   width: 4px;
-  background: #f6bfa5;
+  background: #d48d9a;
 }
 
 .cd-timeline-block {
@@ -806,7 +806,6 @@ Main components
   align-items: center;
 }
 .portfolio h1 {
-  display: block;
   animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s infinite alternate;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -923,6 +922,20 @@ Main components
 }
 .contact .bg-contact {
   background-color: #6e6887bd;
+  border-radius: 8px;
+}
+.contact h1 {
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s infinite alternate;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+@keyframes reveal {
+  0% {
+    transform: translate(0, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 .form-control {
@@ -1177,6 +1190,7 @@ textarea.form-control {
 
 .contact-wrap {
   background: #f6bfa5ad;
+  border-radius: 8px;
 }
 
 .info-wrap {
@@ -1523,6 +1537,31 @@ textarea.form-control {
   .cd-timeline-content {
     width: 100%;
   }
+
+  .cd-timeline-block {
+    width: 19rem;
+  }
+
+  .about img {
+    width: 7rem;
+  }
+}
+@media (max-width: 411px) {
+  .cd-timeline-content {
+    width: fit-content;
+  }
+
+  .about img {
+    width: 7rem;
+  }
+
+  .cd-time-content h2 {
+    font-size: inherit;
+  }
+
+  .cd-timeline-content p {
+    font-size: x-small;
+  }
 }
 /* Google Fonts Import Link */
 * {
@@ -1536,6 +1575,7 @@ body {
   overflow-x: hidden;
   background-image: url("/img/bg.png");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 #btn-back-to-top {

@@ -106,9 +106,37 @@
 }
 
 @media (max-width: 375px) {
+
     .cd-timeline-content {
-        width: 100%;
+      width: 100%;
     }
+
+    .cd-timeline-block {
+      width: 19rem;
+    }
+
+    .about img {
+      width: 7rem;
+    }
+}
+
+@media (max-width: 411px) {
+
+  .cd-timeline-content {
+    width: fit-content;
+  }
+
+  .about img {
+    width: 7rem;
+  }
+
+  .cd-time-content h2 {
+    font-size: inherit;
+  }
+
+  .cd-timeline-content p {
+    font-size: x-small;
+  }
 }
 
 

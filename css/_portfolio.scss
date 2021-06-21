@@ -7,7 +7,6 @@
   @include center;
 
   h1 {
-    display: block;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s infinite alternate;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -85,11 +84,10 @@
       transform: translateX(-200px);
       transition-delay: 0.2s;
     }
+
     a{
       transform: translateX(200px);
       transition-delay: 0.2s;
-
-
     }
 
     .animate-text {

@@ -8,6 +8,22 @@
   }
   .bg-contact {
     background-color: #6e6887bd;
+    border-radius: 8px;
+  }
+
+  h1 {
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s infinite alternate;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  @keyframes reveal {
+    0% {
+        transform: translate(0,100%);
+    }
+    100% {
+        transform: translate(0,0);
+    }
   }
 }
 
@@ -209,6 +225,7 @@ textarea.form-control {
 
 .contact-wrap {
   background: #f6bfa5ad;
+  border-radius: 8px;
 }
 
 .info-wrap {
