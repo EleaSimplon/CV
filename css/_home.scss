@@ -1,24 +1,28 @@
-// SECTION 1 HOME
+// *************** SECTION 1 HOME ***************
 
 .home {
 
     @include sections;
     @include center;
-    background-color: #4FD9F9;
-    background-image: url('/img/home.jpg');
+    position: relative;
 
     h2 {
         font-size: 4rem;
         font-weight: 500;
     }
+
+    img {
+        width: 15rem;
+    }
+
 }
 
 svg text {
-    stroke: rgb(255, 255, 255);
+    stroke: #B08968;
     stroke-width: 5;
     font-size: 100px;
     font-weight: 500;
-    animation: textAnimate 5s infinite alternate;
+    animation: textAnimate 3s infinite alternate;
 }
 
 @keyframes textAnimate {

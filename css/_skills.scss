@@ -1,0 +1,139 @@
+// *************** SECTION 3 SKILLS ***************
+
+.skills {
+    position :relative;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+
+    .row{
+        justify-content: space-around;
+    }
+
+    h2, h4{
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        display: block;
+        animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s infinite alternate;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    @keyframes reveal {
+        0% {
+            transform: translate(0,100%);
+        }
+        100% {
+            transform: translate(0,0);
+        }
+    }
+
+    i {
+        font-size: 3rem;
+    }
+
+    img {
+        width: 58px;
+    }
+
+    .lineComplete {
+        background-color: #e6ccb2;
+        height: 1rem;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .skillSize{
+        width: 30rem;
+    }
+
+    .p-2 {
+        padding: 35px !important; 
+    }
+}
+
+.line {
+    @include skillsLine;
+}
+
+// HTML
+.line.line-1 {
+    width: 90%;
+}
+
+// CSS
+.line.line-2 {
+    width: 80%;
+}
+
+// SCSS
+.line.line-3 {
+    width: 80%;
+}
+
+// PHP
+.line.line-4 {
+    width: 60%;
+}
+
+// JS
+.line.line-5 {
+    width: 50%;
+}
+
+//SYMFONY
+.line.line-6 {
+    width: 60%;
+}
+
+// WORDPRESS
+.line.line-7 {
+    width: 40%;
+}
+
+// MATERIALIZE
+.line.line-8 {
+    width: 80%;
+}
+
+// BOOTSTRAP
+.line.line-9 {
+    width: 80%;
+}
+
+// GITHUB
+.line.line-10 {
+    width: 80%;
+}
+
+// TRELLO
+.line.line-11 {
+    width: 90%;
+}
+
+// WHIMSICAL
+.line.line-12 {
+    width: 70%;
+}
+
+// CODEPEN
+.line.line-13 {
+    width: 80%;
+}
+
+// SQL
+.line.line-14 {
+    width: 60%;
+}
+
+@media (max-width: 640px) {
+    .skills {
+        width: calc(100% - 63px);
+        margin-left: 63px;
+        height: auto;
+    }
+}

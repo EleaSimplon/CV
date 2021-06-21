@@ -1,43 +1,14 @@
-const sections = document.querySelectorAll('section');
+let arrow = document.querySelectorAll(".arrow");
+    for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e)=>{
+    let arrowParent = e.target.parentElement.parentElement;
+    arrowParent.classList.toggle("showMenu");
+        });
+    }
 
-const bubble = document.querySelector('.bubble');
-
-const bckground = [
-    '#4FD9F9',
-    '#ffe8d6;',
-    '#b5c99a',
-    '#b7b7a4'
-];
-
-const options = {
-    threshold: 0.7
-};
-
-let observer = new IntersectionObserver(navCheck, options);
-
-function navCheck(entries){
-    entries.forEach(entry => {
-        const className = entry.target.className;
-        console.log(className);
-        const activeAnchor = document.querySelector(`[data-page=${className}]`);
-        const bckgroundIndex = entry.target.getAttribute('data-index');
-        const coords = activeAnchor.getBoundingClientRect();
-        const directions = {
-            height: coords.height,
-            width: coords.width,
-            top: coords.top,
-            left: coords.left
-        };
-        if (entry.isIntersecting){
-            bubble.style.setProperty('left', `${directions.left}px`);
-            bubble.style.setProperty('top', `${directions.top}px`);
-            bubble.style.setProperty('width', `${directions.width}px`);
-            bubble.style.setProperty('height', `${directions.height}px`);
-            bubble.style.backgroundColor = bckground[bckgroundIndex];
-        }
-    });
-}
-
-sections.forEach(section => {
-    observer.observe(section);
-})
+    let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".bx-menu");
+    console.log(sidebarBtn);
+    sidebarBtn.addEventListener("click", ()=>{
+        sidebar.classList.toggle("close");
+});

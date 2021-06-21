@@ -4,21 +4,29 @@
 @import 'navbar';
 @import 'home';
 @import 'about';
+@import 'skills';
 @import 'portfolio';
 @import 'contact';
 @import 'end';
+@import 'media';
 
 
 // *************** GENERAL ***************
+
+/* Google Fonts Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     overflow-x: hidden;
+    background-image: url('/img/bg.png');
+    background-attachment: fixed;
 }
 
 // *************** BTN BACK TO TOP ***************
@@ -28,10 +36,15 @@ body {
     bottom: 20px;
     right: 20px;
     display: none;
-    background-color: black;
+    background-color: #b08968;
     border-color: transparent;
 }
 
 #btn-back-to-top:hover {
-    background-color: #4fd9f9;
+    background-color: #946f50;
 }
+
+.iconsNav {
+    @include center; 
+}
+

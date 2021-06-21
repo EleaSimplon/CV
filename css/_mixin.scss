@@ -1,3 +1,5 @@
+// *************** MIXIN ***************
+
 @mixin sections() {
     position :relative;
     width: 100%;
@@ -13,4 +15,13 @@
 @mixin spaceB {
     display: flex;
     justify-content: space-between;
+}
+
+@mixin skillsLine {
+    max-width: 800px;
+    height: 1rem;
+    margin: 0 0 10px 0;
+    position: relative;
+    display: inline-block;
+    background-color: #b08968;
 }
