@@ -922,7 +922,7 @@ Main components
   margin: auto;
 }
 .contact .bg-contact {
-  background-color: #6E6887;
+  background-color: #6e6887bd;
 }
 
 .form-control {
@@ -1176,11 +1176,11 @@ textarea.form-control {
 }
 
 .contact-wrap {
-  background: #fff;
+  background: #f6bfa5ad;
 }
 
 .info-wrap {
-  color: rgba(255, 255, 255, 0.8);
+  color: #6e6887bd;
   display: grid;
 }
 
@@ -1247,6 +1247,7 @@ textarea.form-control {
 
 #contactForm .form-control {
   font-size: 16px;
+  border-radius: 8px;
 }
 
 #message {

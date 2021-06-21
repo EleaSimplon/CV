@@ -16,6 +16,8 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <!--******* CSS *******-->
     <link rel="stylesheet" href="/css/main.css">
+    <!----- ***** URL ICON LINK ******------>
+    <link rel="icon" href="/img/logoeE.png"/>
     <title>CV</title>
 
 </head>

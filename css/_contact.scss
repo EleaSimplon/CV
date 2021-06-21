@@ -7,7 +7,7 @@
     margin: auto;
   }
   .bg-contact {
-    background-color: #6E6887
+    background-color: #6e6887bd;
   }
 }
 
@@ -208,73 +208,79 @@ textarea.form-control {
   box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18); }
 
 .contact-wrap {
-  background: #fff; }
+  background: #f6bfa5ad;
+}
 
 .info-wrap {
-  color: rgba(255, 255, 255, 0.8);
+  color: #6e6887bd;
   display: grid;
 }
-  .info-wrap h3 {
-    color: #fff;
-  }
+.info-wrap h3 {
+  color: #fff;
+}
 
-  .info-wrap .dbox {
-    width: 100%;
-    color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 25px;
-  }
+.info-wrap .dbox {
+width: 100%;
+color: rgba(255, 255, 255, 0.8);
+margin-bottom: 25px;
+}
 
-    .info-wrap .dbox:last-child {
-      margin-bottom: 0;
-    }
+.info-wrap .dbox:last-child {
+  margin-bottom: 0;
+}
 
-    .info-wrap .dbox p {
-      margin-bottom: 0;
-    }
+.info-wrap .dbox p {
+  margin-bottom: 0;
+}
 
-    .info-wrap .dbox p span {
-      font-weight: 500;
-      color: #fff;
-    }
+.info-wrap .dbox p span {
+  font-weight: 500;
+  color: #fff;
+}
 
-    .info-wrap .dbox p a {
-      color: #fff;
-    }
+.info-wrap .dbox p a {
+  color: #fff;
+}
 
-    .info-wrap .dbox .icon {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      border: 2px solid rgba(255, 255, 255, 0.2);
-    }
+.info-wrap .dbox .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
 
-    .info-wrap .dbox .icon span {
-      font-size: 20px;
-      color: #fff;
-    }
+.info-wrap .dbox .icon span {
+  font-size: 20px;
+  color: #fff;
+}
 
-    .info-wrap .dbox .text {
-      width: calc(100% - 50px);
-    }
+.info-wrap .dbox .text {
+  width: calc(100% - 50px);
+}
 
 
 .contactForm .label {
   color: #000;
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 .contactForm .form-control {
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0; }
+  padding: 0;
+}
 
 #contactForm .error {
   color: red;
-  font-size: 12px; }
+  font-size: 12px;
+}
 
 #contactForm .form-control {
-  font-size: 16px; }
+  font-size: 16px;
+  border-radius: 8px;
+}
 
 #message {
   resize: vertical; }

@@ -26,9 +26,9 @@
                         <img class="photo" src="/img/crop.png">
                     </div>
                     <div class="col-6">
-                        <h2 class="text1">Experiences Professionnelles</h2>
-                        <h2 class="text2">&</h2>
-                        <h2 class="text3">Formations</h2>
+                        <h1 class="text1">Experiences Professionnelles</h1>
+                        <h1 class="text2 center">&</h1>
+                        <h1 class="text3">Formations</h1>
                     </div>
                 </div>
             </div>
@@ -291,7 +291,7 @@
             <div class="row">
                 <div class="col-2"></div>
                 <div class="col-8">
-                    <a href="" class="button btn-cv dark">
+                    <a href="/img/CV.pdf" class="button btn-cv dark">
                         <ul>
                             <li>&#68;ownload CV</li>
                             <li>&#68;ownloading</li>
