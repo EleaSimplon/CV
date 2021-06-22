@@ -151,7 +151,7 @@ if (($err_formulaire) || (!isset($_POST['envoi'])))
                 <div class="col-md-12">
                     <div class="wrapper">
                         <div class="row no-gutters">
-                            <div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+                            <div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch media">
                                 <div class="contact-wrap w-100 p-md-5 p-4">
                                     <h3 class="mb-4">Get in touch</h3>
                                     <form method="POST" id="contactForm" name="contactForm" class="contactForm">
@@ -200,7 +200,7 @@ if (($err_formulaire) || (!isset($_POST['envoi'])))
                                     </form>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-5 d-flex align-items-stretch bg-contact">
+                            <div class="col-lg-4 col-md-5 d-flex align-items-stretch bg-contact media">
                                 <div class="info-wrap w-100 p-md-5 p-4">
                                     <h3>Quelques informations...</h3>
                                     <div class="dbox w-100 d-flex align-items-start">
@@ -233,8 +233,8 @@ if (($err_formulaire) || (!isset($_POST['envoi'])))
                                 <div class="text pl-3">
                                 <p><span>Discord:</span> eleaSimplon/p>
                             </div> -->
-                        </div>
-                    </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

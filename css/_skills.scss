@@ -40,7 +40,7 @@
     }
 
     .lineComplete {
-        background-color: #e6ccb2;
+        background-color:#ceb59c;
         height: 1rem;
         width: 100%;
         border-radius: 10px;
@@ -128,12 +128,4 @@
 // SQL
 .line.line-14 {
     width: 60%;
-}
-
-@media (max-width: 640px) {
-    .skills {
-        width: calc(100% - 63px);
-        margin-left: 63px;
-        height: auto;
-    }
 }

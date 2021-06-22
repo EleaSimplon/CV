@@ -117,9 +117,8 @@
   transform:translateY(0px);
 }
 
-@media (max-width: 1000px) {
-  .wrap {
-    flex-direction: column;
-    width:400px;
-  }
+.btn-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

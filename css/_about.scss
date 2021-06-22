@@ -3,7 +3,7 @@
 .about {
   overflow: hidden;
   @include sections;
-  padding: 90px;
+  padding: 50px;
 
   img {
     width: 15rem;
@@ -313,11 +313,11 @@
   position: relative;
   margin-left: 60px;
   margin-right: 30px;
-  background: #6d6875;
+  background: #6d6875b8;;
   border-radius: 2px;
   padding: 1em;
   .timeline-content-info {
-    background: #2B343A;
+    background: #2b343aba;
     padding: 5px 10px;
     color: rgba(255,255,255,0.7);
     font-size: 12px;

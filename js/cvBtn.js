@@ -23,7 +23,7 @@ document.querySelectorAll('.button').forEach(button => {
     svgPath.y = 20;
     svgPath.smoothing = 0;
 
-    button.addEventListener('click', e => {
+    button.addEventListener('click', async (e) => {
         
         e.preventDefault();
 
@@ -31,26 +31,28 @@ document.querySelectorAll('.button').forEach(button => {
 
             button.classList.add('loading');
 
-            gsap.to(svgPath, {
+            await gsap.to(svgPath, {
                 smoothing: .3,
                 duration: duration * .065 / 1000
             });
 
-            gsap.to(svgPath, {
+            await gsap.to(svgPath, {
                 y: 12,
                 duration: duration * .265 / 1000,
                 delay: duration * .065 / 1000,
                 ease: Elastic.easeOut.config(1.12, .4)
             });
 
-            setTimeout(() => {
+            await setTimeout(() => {
                 svg.innerHTML = getPath(0, 0, [
                     [3, 14],
                     [8, 19],
                     [21, 6]
                 ]);
+                window.open("/img/CV.pdf", "_blank");
             }, duration / 2);
 
+          
         }
 
     });

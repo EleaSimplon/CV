@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <section id="cd-timeline" class="cd-container">
+            <div id="cd-timeline" class="cd-container">
 
                 <!-- ********* FORMATION SIMPLON ********** -->
                 <div class="cd-timeline-block">
@@ -286,16 +286,17 @@
                     </div> <!-- cd-timeline-content -->
                 </div> <!-- cd-timeline-block -->
 
-            </section> <!-- cd-timeline -->
-
+            </div> <!-- cd-timeline -->
+    
+            <!-- ********* BTN CV ********** -->
             <div class="row">
                 <div class="col-2"></div>
                 <div class="col-8">
-                    <a href="/img/CV.pdf" class="button btn-cv dark">
+                    <a class="button btn-cv dark" >
                         <ul>
-                            <li>&#68;ownload CV</li>
-                            <li>&#68;ownloading</li>
-                            <li>Open File</li>
+                            <li>Open CV</li>
+                            <li>Loading</li>
+                            <li>File opened</li>
                         </ul>
                         <div>
                             <svg viewBox="0 0 24 24"></svg>
@@ -402,7 +403,7 @@
                     </div>
 
                     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center">
-                        <h4 class="d-flex">CSS Framework :</h4>
+                        <h4 class="d-flex">Framework CSS :</h4>
                         <!-- MATERIALIZE -->
                         <div class="skillSize center row w-100">
                             <div class="col-sm-1 col-12 d-flex align-items-center justify-content-center p-0">
@@ -502,8 +503,8 @@
                 <h1 class="d-flex justify-content-center">Portfolio</h1>
                 <div class="wrap">
 
-                    <div class="row ">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="row projet ">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <!-- CAGNOTE  -->
                             <div class="tile">
                                 <img src='/img/Cagnot.gif'/>
@@ -512,19 +513,19 @@
                                     <p class="animate-text">Site de paiment collabortif. Créer et participer à des campagnes de financement pour des anniversaires, paris ou courses entres amis...</p>
                                     <div class="btn-portfolio">
                                         <div class="row">
-                                            <div class="col-6">
-                                                <a target="_blank" href= 'https://github.com/EleaSimplon/CagnotteEnLigne' class="btn btn-secondary animate-text">Github</a>
+                                            <div class="col-12">
+                                                <a target="_blank" href= 'https://github.com/EleaSimplon/CagnotteEnLigne' class="btn btn btn-outline-dark animate-text btn-portfolio">Github</a>
                                             </div>
-                                            <div class="col-6">
-                                                <a target="_blank" href="#" class="btn btn-secondary animate-text">Web Site</a>
-                                            </div>
+                                            <!-- <div class="col-6">
+                                                <a target="_blank" href="#" class="btn btn btn-outline-dark animate-text">Web Site</a>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
                             </div><!-- FIN CAGNOTE  -->
                         </div><!-- FIN COL  -->
 
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <!-- LUXURY SERVICES  -->
                             <div class="tile"> 
                                 <img src='/img/Lux.gif'/>
@@ -533,12 +534,12 @@
                                     <p class="animate-text">Site de recrutement de métiers dans le domaine du Luxe...</p>
                                     <div class="btn-portfolio">
                                         <div class="row">
-                                            <div class="col-6">
-                                                <a target="_blank" href= 'https://github.com/EleaSimplon/LuxuryServices' class="btn btn-secondary animate-text">Github</a>
+                                            <div class="col-12">
+                                                <a target="_blank" href= 'https://github.com/EleaSimplon/LuxuryServices' class="btn btn btn-outline-dark animate-text btn-portfolio">Github</a>
                                             </div>
-                                            <div class="col-6">
-                                                <a target="_blank" href="#" class="btn btn-secondary animate-text">Web Site</a>
-                                            </div>
+                                            <!-- <div class="col-6">
+                                                <a target="_blank" href="#" class="btn btn btn-outline-dark animate-text">Web Site</a>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -546,8 +547,8 @@
                         </div><!-- FIN COL  -->
                     </div> <!-- FIN ROW 2  --> 
 
-                    <div class="row ">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="row projet">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <!-- COMPAR OPERATOR  -->
                             <div class="tile"> 
                                 <img src='/img/CO.gif'/>
@@ -557,10 +558,10 @@
                                     <div class="btn-portfolio">
                                         <div class="row">
                                             <div class="col-6">
-                                                <a target="_blank" href= 'https://github.com/EleaSimplon/TourOperator' class="btn btn-secondary animate-text">Github</a>
+                                                <a target="_blank" href= 'https://github.com/EleaSimplon/TourOperator' class="btn btn btn-outline-dark animate-text btn-portfolio">Github</a>
                                             </div>
                                             <div class="col-6">
-                                                <a target="_blank" href="#" class="btn btn-secondary animate-text">Web Site</a>
+                                                <a target="_blank" href="#" class="btn btn btn-outline-dark animate-text btn-portfolio">Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -568,7 +569,7 @@
                             </div><!-- FIN COMPAR OPERATOR  -->
                         </div><!-- FIN COL  -->
                         
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <!-- QUIZ  -->
                             <div class="tile"> 
                                 <img src='/img/Quiz.gif'/>
@@ -578,10 +579,10 @@
                                     <div class="btn-portfolio">
                                         <div class="row">
                                             <div class="col-6">
-                                                <a target="_blank" href= 'https://github.com/EleaSimplon/Quiz' class="btn btn-secondary animate-text">Github</a>
+                                                <a target="_blank" href= 'https://github.com/EleaSimplon/Quiz' class="btn btn btn-outline-dark animate-text btn-portfolio">Github</a>
                                             </div>
                                             <div class="col-6">
-                                                <a target="_blank" href="#" class="btn btn-secondary animate-text">Web Site</a>
+                                                <a target="_blank" href="#" class="btn btn btn-outline-dark animate-text btn-portfolio">Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -590,8 +591,8 @@
                         </div><!-- FIN COL  -->
                     </div> <!-- FIN ROW 1  --> 
 
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="row projet">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <!-- YACHT  -->
                             <div class="tile"> 
                                 <img src='/img/YS.gif'/>
@@ -601,10 +602,10 @@
                                     <div class="btn-portfolio">
                                         <div class="row">
                                             <div class="col-6">
-                                                <a target="_blank" href= 'https://github.com/EleaSimplon/YachtShare' class="btn btn-secondary animate-text">Github</a>
+                                                <a target="_blank" href= 'https://github.com/EleaSimplon/YachtShare' class="btn btn btn-outline-dark animate-text btn-portfolio">Github</a>
                                             </div>
                                             <div class="col-6">
-                                                <a target="_blank" href="#" class="btn btn-secondary animate-text">Web Site</a>
+                                                <a target="_blank" href="#" class="btn btn btn-outline-dark animate-text btn-portfolio">Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -612,7 +613,7 @@
                             </div><!-- FIN YACHT  -->
                         </div><!-- FIN COL  -->
 
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <!-- MINI CHAT  -->
                             <div class="tile"> 
                                 <img src='/img/MC.gif'/>
@@ -622,10 +623,10 @@
                                     <div class="btn-portfolio">
                                         <div class="row">
                                             <div class="col-6">
-                                                <a target="_blank" href= 'https://github.com/EleaSimplon/MiniChat' class="btn btn-secondary animate-text">Github</a>
+                                                <a target="_blank" href= 'https://github.com/EleaSimplon/MiniChat' class="btn btn btn-outline-dark animate-text btn-portfolio">Github</a>
                                             </div>
                                             <div class="col-6">
-                                                <a target="_blank" href="#" class="btn btn-secondary animate-text">Web Site</a>
+                                                <a target="_blank" href="#" class="btn btn btn-outline-dark animate-text btn-portfolio">Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -634,8 +635,8 @@
                         </div><!-- FIN COL  -->
                     </div> <!-- FIN ROW 2  --> 
 
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="row projet">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <!-- TIC TAC TOE  -->
                             <div class="tile"> 
                                 <img src='/img/TTT.gif'/>
@@ -645,10 +646,10 @@
                                     <div class="btn-portfolio">
                                         <div class="row">
                                             <div class="col-6">
-                                                <a target="_blank" href= 'https://github.com/EleaSimplon/Tic-Tac-Toe' class="btn btn-secondary animate-text">Github</a>
+                                                <a target="_blank" href= 'https://github.com/EleaSimplon/Tic-Tac-Toe' class="btn btn btn-outline-dark animate-text btn-portfolio">Github</a>
                                             </div>
                                             <div class="col-6">
-                                                <a target="_blank" href="#" class="btn btn-secondary animate-text">Web Site</a>
+                                                <a target="_blank" href="#" class="btn btn btn-outline-dark animate-text btn-portfolio">Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -656,7 +657,7 @@
                             </div><!-- FIN TTT   -->
                         </div><!-- FIN COL  -->
 
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <!-- MEMORY GAME  -->
                             <div class="tile"> 
                                 <img src='/img/MG.gif'/>
@@ -666,10 +667,10 @@
                                     <div class="btn-portfolio">
                                         <div class="row">
                                             <div class="col-6">
-                                                <a target="_blank" href= 'https://github.com/EleaSimplon/Memory-Game' class="btn btn-secondary animate-text">Github</a>
+                                                <a target="_blank" href= 'https://github.com/EleaSimplon/Memory-Game' class="btn btn btn-outline-dark animate-text btn-portfolio">Github</a>
                                             </div>
                                             <div class="col-6">
-                                                <a target="_blank" href="#" class="btn btn-secondary animate-text">Web Site</a>
+                                                <a target="_blank" href="#" class="btn btn btn-outline-dark animate-text btn-portfolio">Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -678,7 +679,7 @@
                         </div><!-- FIN COL  -->
                     </div> <!-- FIN ROW 2  --> 
 
-                    <div class="row">
+                    <div class="row projet">
                         <div class="col-sm-12 col-md-12 col-lg-2">
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-8">
@@ -691,10 +692,10 @@
                                     <div class="btn-portfolio">
                                         <div class="row">
                                             <div class="col-6">
-                                                <a target="_blank" href= 'https://github.com/EleaSimplon/DrumPad' class="btn btn-secondary animate-text">Github</a>
+                                                <a target="_blank" href= 'https://github.com/EleaSimplon/DrumPad' class="btn btn btn-outline-dark animate-text">Github</a>
                                             </div>
                                             <div class="col-6">
-                                                <a target="_blank" href="#" class="btn btn-secondary animate-text">Web Site</a>
+                                                <a target="_blank" href="#" class="btn btn btn-outline-dark animate-text">Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -713,111 +714,6 @@
         <?php
             include 'mail.php'
         ?>
-
-        <!-- <section data-index="5" id="contact" class="contact">
-            <section class="ftco-section">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-md-6 text-center">
-                            <h2 class="heading-section">Contact me</h2>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-md-12">
-                            <div class="wrapper">
-                                <div class="row no-gutters">
-                                    <div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
-                                        <div class="contact-wrap w-100 p-md-5 p-4">
-                                            <h3 class="mb-4">Get in touch</h3>
-                                            <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <label class="label" for="name">Nom</label>
-                                                            <input type="text" class="form-control" name="nom" id="nom" placeholder="Votre Nom">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6"> 
-                                                        <div class="form-group">
-                                                            <label class="label" for="name">Prénom</label>
-                                                            <input type="text" class="form-control" name="prenom" id="prenom" placeholder="Votre Prénom">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <label class="label" for="subject">Email</label>
-                                                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <label class="label" for="subject">Sujet</label>
-                                                            <input type="text" class="form-control" name="sujet" id="suject" placeholder="Sujet du mail">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <label class="label" for="#">Message</label>
-                                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Ecrivez votre message ici..."></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <button class="button-contact">
-                                                                <span class="default">Send</span>
-                                                                <span class="success">Sent</span>
-                                                                <div class="left"></div>
-                                                                <div class="right"></div>
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-5 d-flex align-items-stretch bg-contact">
-                                        <div class="info-wrap w-100 p-md-5 p-4">
-                                            <h3>Quelques informations...</h3>
-                                            <div class="dbox w-100 d-flex align-items-start">
-                                            <div class="icon d-flex align-items-center justify-content-center">
-                                                <span class="fa fa-map-marker"></span>
-                                            </div>
-                                            <div class="text pl-3">
-                                            <p><span>Location:</span> 69001, Lyon</p>
-                                        </div>
-                                    </div>
-                                    <div class="dbox w-100 d-flex align-items-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="fa fa-phone"></span>
-                                        </div>
-                                        <div class="text pl-3">
-                                        <p><span>Numéro: </span> 07 49 52 90 54</p>
-                                    </div>
-                                </div>
-                                    <div class="dbox w-100 d-flex align-items-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="fa fa-paper-plane"></span>
-                                        </div>
-                                        <div class="text pl-3">
-                                        <p><span>Email:</span> elea.toos@gmail.com</p>
-                                    </div>
-                                    <!-- <div class="dbox w-100 d-flex align-items-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <i class='bx bxl-discord' style='color:#ffffff'  ></i>
-                                        </div>
-                                        <div class="text pl-3">
-                                        <p><span>Discord:</span> eleaSimplon/p>
-                                    </div> -->
-                                </div>
-                            </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </section> -->
 
         <!-- BACK TO TOP BTN -->
         <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
